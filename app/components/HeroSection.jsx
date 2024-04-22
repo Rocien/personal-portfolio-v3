@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from 'next/image';
+import Image from 'next/legacy/image';
 
 export const HeroSection = () => {
   return (
@@ -8,14 +8,14 @@ export const HeroSection = () => {
         <div className="col-span-7 place-self-center text-center sm:text-left ">
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-violet-500 to-green-primary">
-              Hi, I'm
+              Hi, I&apos;m
             </span>
             <br></br>
             Rocien
           </h1>
           <p className="text-white-dark text-base sm:text-lg mb-6 lg:text-xl">
             I am a full-stack software developer with a passion for creating interactive and
-            responsive web applications,{' '}
+            responsive web applications.{' '}
           </p>
           <div>
             <p className="uppercase">Check out my resume</p>
