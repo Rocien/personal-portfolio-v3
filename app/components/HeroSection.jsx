@@ -11,17 +11,17 @@ export const HeroSection = () => {
         <div className="col-span-7 place-self-center text-center sm:text-left ">
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-7xl lg:leading-normal font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-violet-500 to-green-primary">
-              Hi, I&apos;m
+              Hello, I&apos;m
             </span>
             <br></br>
             <TypeAnimation
               sequence={[
-                'Rocien',
-                2000, // wait 2s before replacing to the second phrase
-                'FullStack Developer',
-                2000,
+                'Rocien Nkunga',
+                1500, // wait 1.5s before replacing to the second phrase
+                'FullStack Dev',
+                1500,
                 'Mobile Developer',
-                2000
+                1500
               ]}
               wrapper="span"
               speed={50}
