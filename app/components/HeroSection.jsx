@@ -1,17 +1,32 @@
+'use client';
+
 import React from 'react';
 import Image from 'next/legacy/image';
+import { TypeAnimation } from 'react-type-animation';
 
 export const HeroSection = () => {
   return (
     <section>
       <div className="grid grid-cols-1 lg:grid-cols-12">
         <div className="col-span-7 place-self-center text-center sm:text-left ">
-          <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
+          <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-7xl lg:leading-normal font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-violet-500 to-green-primary">
               Hi, I&apos;m
             </span>
             <br></br>
-            Rocien
+            <TypeAnimation
+              sequence={[
+                'Rocien',
+                2000, // wait 2s before replacing to the second phrase
+                'FullStack Developer',
+                2000,
+                'Mobile Developer',
+                2000
+              ]}
+              wrapper="span"
+              speed={50}
+              repeat={Infinity}
+            />
           </h1>
           <p className="text-white-dark text-base sm:text-lg mb-6 lg:text-xl">
             I am a full-stack software developer with a passion for creating interactive and
