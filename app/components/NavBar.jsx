@@ -29,7 +29,7 @@ export const NavBar = () => {
       <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-4 py-2">
         <Link
           href={'/'}
-          className="block relative w-12 h-12 sm:w-14 sm:h-14 lg:w-18 lg:h-18 left-6 hover:border-2 hover:border-green-primary hover:border-solid transition-all duration-300">
+          className="block relative w-12 h-12 sm:w-14 sm:h-14 lg:w-18 lg:h-18 left-1 hover:border-2 hover:border-green-primary hover:border-solid transition-all duration-300">
           <Image
             layout="fill"
             objectFit="contain"
@@ -42,13 +42,13 @@ export const NavBar = () => {
           {!navbarOpen ? (
             <button
               onClick={() => setNavbarOpen(true)}
-              className="flex items-center px-3 py-2 border rounded border-slate-200 text-slate-200 hover:text-white hover:border-white">
+              className="flex items-center px-3 py-2 border rounded border-slate-200 text-slate-200 hover:text-green-primary hover:border-green-primary">
               <Bars3Icon className="h-5 w-5" />
             </button>
           ) : (
             <button
               onClick={() => setNavbarOpen(false)}
-              className="flex items-center px-3 py-2 border rounded border-slate-200 text-slate-200 hover:text-white hover:border-white">
+              className="flex items-center px-3 py-2 border rounded border-slate-200 text-slate-200 hover:text-green-primary hover:border-green-primary">
               <XMarkIcon className="h-5 w-5" />
             </button>
           )}
