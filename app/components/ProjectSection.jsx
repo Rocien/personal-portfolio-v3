@@ -37,12 +37,13 @@ const projectsData = [
   },
   {
     id: 4,
-    title: 'Food Ordering Application',
-    description: 'Project 4 description',
-    image: '/images/projects/4.png',
-    tag: ['All', 'WebApp'],
-    gitUrl: '/',
-    previewUrl: '/'
+    title: 'Vanilla JS Portfolio Website',
+    description:
+      'Portfolio Website V1 is the initial version of my personal portfolio, crafted with Vanilla JavaScript, HTML, and CSS. This site served as a straightforward platform to display my projects and skills, emphasizing fundamental web development practices. Its design was focused on simplicity and functionality, providing a clear and effective showcase of my capabilities in the core technologies of web development.',
+    image: '/images/projects/p4.jpg',
+    tag: ['All', 'Website'],
+    gitUrl: 'https://github.com/Rocien/portfolio-site',
+    previewUrl: 'https://v2-rociennkunga.vercel.app/'
   },
   {
     id: 5,
