@@ -17,6 +17,7 @@ module.exports = {
         'light-slate': '#ccd6f6',
         black: '#000',
         'black-light': 'rgba(0, 0, 0, 0.6)',
+        'dark-light': '#33353F',
         'light-black2': '#121212',
         'green-primary': '#64ffda',
         'regal-blue': '#243c5a',

@@ -25,11 +25,11 @@ const navLinks = [
 export const NavBar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
   return (
-    <nav className="fixed mx-auto border border-[#33353F] top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-100">
+    <nav className="fixed mx-auto border border-dark-light top-0 left-0 right-0 z-10 bg-navy-primary bg-opacity-100">
       <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-4 py-2">
         <Link
           href={'/'}
-          className="block relative w-12 h-12 sm:w-14 sm:h-14 lg:w-18 lg:h-18 left-1 hover:border-2 hover:border-green-primary hover:border-solid transition-all duration-300">
+          className="block relative w-12 h-12 sm:w-14 sm:h-14 lg:w-18 lg:h-18 left-1 hover:border hover:border-green-primary hover:shadow-md hover:shadow-green-primary/90 transform transition duration-300 hover:-translate-x-1 hover:-translate-y-1">
           <Image
             layout="fill"
             objectFit="contain"

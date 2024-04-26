@@ -52,9 +52,16 @@ const AboutSection = () => {
   };
 
   return (
-    <section className="text-white">
+    <section className="text-white mt-48">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image src="/images/about-photo.jpeg" width={500} height={500} />
+        <div>
+          <Image
+            className="border border-green-primary hover:border-green-primary shadow-lg hover:shadow-green-primary/90 transform transition duration-300 hover:-translate-x-1 hover:-translate-y-1"
+            src="/images/about-photo.jpeg"
+            width={500}
+            height={500}
+          />
+        </div>
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
