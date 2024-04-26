@@ -7,9 +7,10 @@ import { motion, useInView } from 'framer-motion';
 const projectsData = [
   {
     id: 1,
-    title: 'Next-JS ScrapSkip',
-    description: 'Marketplace Web App built with nextjs, express-js and mongoDB ',
-    image: '/images/projects/1.png',
+    title: 'ScrapSkip Web app',
+    description:
+      'ScrapSkip is a Next.js-based marketplace web app designed to buy and sell unwanted household items. It leverages Tailwind CSS for styling, Express.js for server-side logic, and MongoDB for data management. The app features secure user authentication via Google OAuth, ensuring a seamless and safe user experience.',
+    image: '/images/projects/p1.jpg',
     tag: ['All', 'WebApp'],
     gitUrl: '/',
     previewUrl: '/'
