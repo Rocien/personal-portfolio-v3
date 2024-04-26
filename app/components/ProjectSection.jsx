@@ -12,8 +12,8 @@ const projectsData = [
       'ScrapSkip is a Next.js-based marketplace web app designed to buy and sell unwanted household items. It leverages Tailwind CSS for styling, Express.js for server-side logic, and MongoDB for data management. The app features secure user authentication via Google OAuth, ensuring a seamless and safe user experience.',
     image: '/images/projects/p1.jpg',
     tag: ['All', 'WebApp'],
-    gitUrl: '/',
-    previewUrl: '/'
+    gitUrl: 'https://github.com/Rocien/scrapskip-app',
+    previewUrl: 'https://scrapskip.vercel.app/'
   },
   {
     id: 2,
