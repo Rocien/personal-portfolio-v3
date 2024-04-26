@@ -9,7 +9,7 @@ const projectsData = [
     id: 1,
     title: 'ScrapSkip Web app',
     description:
-      'ScrapSkip is a Next.js-based marketplace web app designed to buy and sell unwanted household items. It leverages Tailwind CSS for styling, Express.js for server-side logic, and MongoDB for data management. The app features secure user authentication via Google OAuth, ensuring a seamless and safe user experience.',
+      'Authentication and CRUD operations, ScrapSkip is a Next.js-based marketplace web app designed to buy and sell unwanted household items. It leverages Tailwind CSS for styling, Express.js for server-side logic, and MongoDB for data management. The app features secure user authentication via Google OAuth, ensuring a seamless and safe user experience.',
     image: '/images/projects/p1.jpg',
     tag: ['All', 'WebApp'],
     gitUrl: 'https://github.com/Rocien/scrapskip-app',
@@ -41,27 +41,29 @@ const projectsData = [
     description:
       'Portfolio Website V1 is the initial version of my personal portfolio, crafted with Vanilla JavaScript, HTML, and CSS. This site served as a straightforward platform to display my projects and skills, emphasizing fundamental web development practices. Its design was focused on simplicity and functionality, providing a clear and effective showcase of my capabilities in the core technologies of web development.',
     image: '/images/projects/p4.jpg',
-    tag: ['All', 'Website'],
+    tag: ['All', 'WebSite'],
     gitUrl: 'https://github.com/Rocien/portfolio-site',
     previewUrl: 'https://v2-rociennkunga.vercel.app/'
   },
   {
     id: 5,
-    title: 'React Firebase Template',
-    description: 'Authentication and CRUD operations',
-    image: '/images/projects/5.png',
+    title: 'Personal Portfolio Website',
+    description:
+      'My portfolio website, built using Next.js and Tailailwind CSS, is designed to showcase my skills and projects in a modern and responsive interface. This site leverages the robust features of Next.js for enhanced performance and SEO, paired with the utility-first styling of Tailwind CSS for a sleek, custom look. It serves as a dynamic platform to display my professional work and technical abilities, highlighting my expertise in contemporary a fullstack web development',
+    image: '/images/projects/',
     tag: ['All', 'WebSite'],
-    gitUrl: '/',
-    previewUrl: '/'
+    gitUrl: 'https://github.com/Rocien/personal-portfolio-v3',
+    previewUrl: 'https://www.rociennkunga.com/'
   },
   {
     id: 6,
-    title: 'Full-stack Roadmap',
-    description: 'Project 5 description',
-    image: '/images/projects/6.png',
+    title: 'Adventure CO - Blog',
+    description:
+      "Adventure Co! is a concise two-page website blog designed to showcase my web page design and flow capabilities. Crafted with HTML, CSS, and JavaScript, this site features a responsive design that ensures a seamless viewing experience on any device. It's tailored to demonstrate the effectiveness of my layout skills and the engaging user interfaces I can create, all through a visually appealing adventure-themed content presentation.",
+    image: '/images/projects/p5.jpg',
     tag: ['All', 'WebSite'],
-    gitUrl: '/',
-    previewUrl: '/'
+    gitUrl: 'https://github.com/Rocien/adventure-co-blog',
+    previewUrl: 'https://adventure-co-blog.vercel.app/'
   }
 ];
 

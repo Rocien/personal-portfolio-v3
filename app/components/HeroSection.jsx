@@ -35,19 +35,13 @@ export const HeroSection = () => {
           <div>
             <p className="uppercase">Check out my resume</p>
             <button className="px-1 py-1 rounded-full bg-gradient-to-br from-violet-500 to-green-primary hover:text-green-primary hover:shadow-md hover:shadow-green-primary/90 transform transition duration-300 hover:-translate-x-1 hover:-translate-y-1 m-3">
-              <span className="block bg-[#121212] rounded-full px-5 py-2">Grab A copy</span>
+              <span className="block bg-light-black2 rounded-full px-5 py-2">Grab A copy</span>
             </button>
           </div>
         </div>
         <div className="col-span-5 place-self-center mt-4 lg:mt-0">
-          <div className="rounded-full border border-green-primary w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative overflow-hidden">
-            <Image
-              layout="fill"
-              //   className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2  lg:"
-              src="/images/Hero.png"
-              alt="Hero photo"
-              objectFit="cover"
-            />
+          <div className="rounded-full border border-green-primary w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative overflow-hidden bg-light-black2">
+            <Image layout="fill" src="/images/Hero.png" alt="Hero photo" objectFit="cover" />
           </div>
         </div>
       </div>
