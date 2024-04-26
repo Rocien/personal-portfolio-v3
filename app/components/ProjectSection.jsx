@@ -17,21 +17,23 @@ const projectsData = [
   },
   {
     id: 2,
-    title: 'Potography Portfolio Website',
-    description: 'Project 2 description',
-    image: '/images/projects/2.png',
-    tag: ['All', 'WebSite'],
-    gitUrl: '/',
-    previewUrl: '/'
+    title: 'ClimaSphere Web application',
+    description:
+      'ClimaSphere is a sleek weather application built with React.js and styled using Tailwind CSS along with CSS modules. It enables users to easily search for and view the current weather conditions of any location. Leveraging the OpenWeather API, ClimaSphere provides accurate and up-to-date weather information, making it a go-to resource for all your weather needs',
+    image: '/images/projects/p2.jpg',
+    tag: ['All', 'WebApp'],
+    gitUrl: 'https://github.com/Rocien/ClimaSphere-weather-app',
+    previewUrl: 'https://climasphere.vercel.app/'
   },
   {
     id: 3,
-    title: 'E-commerce Application',
-    description: 'Project 3 description',
-    image: '/images/projects/3.png',
-    tag: ['All', 'WebSite'],
-    gitUrl: '/',
-    previewUrl: '/'
+    title: 'Bloom&Glow E-commerce App',
+    description:
+      "This is a stylish frontend-only e-commerce website for Broom&Glow Shop, currently under construction as part of a freelance project. Built using React.js and Tailwind CSS, the site offers a modern, responsive design that showcases Broom&Glow's products with an emphasis on visual appeal and user experience. This project highlights a sleek interface designed to enhance customer interaction and sales, even as development continues to refine and expand its features.",
+    image: '/images/projects/p3.jpg',
+    tag: ['All', 'WebApp'],
+    gitUrl: 'https://github.com/Rocien/bloom-and-glow',
+    previewUrl: 'https://rocien.github.io/bloom-and-glow/'
   },
   {
     id: 4,
