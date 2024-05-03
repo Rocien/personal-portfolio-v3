@@ -7,6 +7,16 @@ import { motion, useInView } from 'framer-motion';
 const projectsData = [
   {
     id: 1,
+    title: 'Personal Portfolio Website',
+    description:
+      'My portfolio website, built using Next.js and Tailailwind CSS, is designed to showcase my skills and projects in a modern and responsive interface. This site leverages the robust features of Next.js for enhanced performance and SEO, paired with the utility-first styling of Tailwind CSS for a sleek, custom look. It serves as a dynamic platform to display my professional work and technical abilities, highlighting my expertise in contemporary a fullstack web development',
+    image: '/images/projects/',
+    tag: ['All', 'WebSite'],
+    gitUrl: 'https://github.com/Rocien/personal-portfolio-v3',
+    previewUrl: 'https://www.rociennkunga.com/'
+  },
+  {
+    id: 2,
     title: 'ScrapSkip Web app',
     description:
       'Authentication and CRUD operations, ScrapSkip is a Next.js-based marketplace web app designed to buy and sell unwanted household items. It leverages Tailwind CSS for styling, Express.js for server-side logic, and MongoDB for data management. The app features secure user authentication via Google OAuth, ensuring a seamless and safe user experience.',
@@ -16,7 +26,7 @@ const projectsData = [
     previewUrl: 'https://scrapskip.vercel.app/'
   },
   {
-    id: 2,
+    id: 3,
     title: 'ClimaSphere Web application',
     description:
       'ClimaSphere is a sleek weather application built with React.js and styled using Tailwind CSS along with CSS modules. It enables users to easily search for and view the current weather conditions of any location. Leveraging the OpenWeather API, ClimaSphere provides accurate and up-to-date weather information, making it a go-to resource for all your weather needs',
@@ -26,7 +36,7 @@ const projectsData = [
     previewUrl: 'https://climasphere.vercel.app/'
   },
   {
-    id: 3,
+    id: 4,
     title: 'Bloom&Glow E-commerce App',
     description:
       "This is a stylish frontend-only e-commerce website for Broom&Glow Shop, currently under construction as part of a freelance project. Built using React.js and Tailwind CSS, the site offers a modern, responsive design that showcases Broom&Glow's products with an emphasis on visual appeal and user experience. This project highlights a sleek interface designed to enhance customer interaction and sales, even as development continues to refine and expand its features.",
@@ -36,7 +46,7 @@ const projectsData = [
     previewUrl: 'https://rocien.github.io/bloom-and-glow/'
   },
   {
-    id: 4,
+    id: 5,
     title: 'Vanilla JS Portfolio Website',
     description:
       'Portfolio Website V1 is the initial version of my personal portfolio, crafted with Vanilla JavaScript, HTML, and CSS. This site served as a straightforward platform to display my projects and skills, emphasizing fundamental web development practices. Its design was focused on simplicity and functionality, providing a clear and effective showcase of my capabilities in the core technologies of web development.',
@@ -44,16 +54,6 @@ const projectsData = [
     tag: ['All', 'WebSite'],
     gitUrl: 'https://github.com/Rocien/portfolio-site',
     previewUrl: 'https://v2-rociennkunga.vercel.app/'
-  },
-  {
-    id: 5,
-    title: 'Personal Portfolio Website',
-    description:
-      'My portfolio website, built using Next.js and Tailailwind CSS, is designed to showcase my skills and projects in a modern and responsive interface. This site leverages the robust features of Next.js for enhanced performance and SEO, paired with the utility-first styling of Tailwind CSS for a sleek, custom look. It serves as a dynamic platform to display my professional work and technical abilities, highlighting my expertise in contemporary a fullstack web development',
-    image: '/images/projects/',
-    tag: ['All', 'WebSite'],
-    gitUrl: 'https://github.com/Rocien/personal-portfolio-v3',
-    previewUrl: 'https://www.rociennkunga.com/'
   },
   {
     id: 6,

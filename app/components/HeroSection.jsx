@@ -21,7 +21,7 @@ export const HeroSection = () => {
                 'Full Stack Web.',
                 1500,
                 'Mobile',
-                1500,
+                1000,
                 'Developer',
                 1500
               ]}
@@ -31,7 +31,7 @@ export const HeroSection = () => {
             />
           </h1>
           <p className="text-white-dark text-base sm:text-lg mb-6 lg:text-xl">
-            with a passion for building interactive and responsive web applications that enhance
+            With a passion for building interactive and responsive web applications that enhance
             user experience and drive business success.{' '}
           </p>
           <div>
