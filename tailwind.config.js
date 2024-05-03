@@ -20,6 +20,7 @@ module.exports = {
         'dark-light': '#33353F',
         'light-black2': '#121212',
         'green-primary': '#64ffda',
+        'green-secondary': '#4ac6b8',
         'regal-blue': '#243c5a',
         'navy-primary': '#0a192f',
         'navy-secondary': '#233554',
