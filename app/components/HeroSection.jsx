@@ -18,7 +18,7 @@ export const HeroSection = () => {
               sequence={[
                 'Rocien Nkunga',
                 1500, // wait 1.5s before replacing to the second phrase
-                'FullStack Dev',
+                'FullStack Web Developer',
                 1500,
                 'Mobile Developer',
                 1500
@@ -34,7 +34,7 @@ export const HeroSection = () => {
           </p>
           <div>
             <p className="uppercase">Check out my resume</p>
-            <button className="px-1 py-1 rounded-full bg-gradient-to-br from-violet-500 to-green-primary hover:text-green-primary hover:shadow-md hover:shadow-green-primary/90 transform transition duration-300 hover:-translate-x-1 hover:-translate-y-1 m-3">
+            <button className="px-1 py-1 rounded-full bg-gradient-to-br from-blue-500 to-green-primary hover:text-green-primary hover:shadow-md hover:shadow-green-primary/90 transform transition duration-300 hover:-translate-x-1 hover:-translate-y-1 m-3">
               <span className="block bg-light-black2 rounded-full px-5 py-2">Grab A copy</span>
             </button>
           </div>

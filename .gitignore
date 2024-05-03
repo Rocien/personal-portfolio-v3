@@ -40,4 +40,5 @@ node_modules/
 .vscode/
 .prettierrc
 .env
+.env.local
 
