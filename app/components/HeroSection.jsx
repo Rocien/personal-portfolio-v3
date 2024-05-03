@@ -40,7 +40,7 @@ export const HeroSection = () => {
           </div>
         </div>
         <div className="col-span-5 place-self-center mt-4 lg:mt-0">
-          <div className="rounded-full border border-green-primary w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative overflow-hidden bg-light-black2">
+          <div className="rounded-full border border-green-primary w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative overflow-hidden bg-light-black2 ">
             <Image layout="fill" src="/images/Hero.png" alt="Hero photo" objectFit="cover" />
           </div>
         </div>
