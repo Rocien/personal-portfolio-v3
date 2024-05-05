@@ -48,10 +48,14 @@ const EmailSection = () => {
           have a question or just want to say hi, I&apos;ll try my best to get back to you!
         </p>
         <div className="socials flex flex-row gap-2">
-          <Link className="text-4xl" href="github.com">
+          <Link
+            className="text-4xl hover:text-green-primary hover:border-green-primary"
+            href="github.com">
             <VscGithub />
           </Link>
-          <Link className="text-4xl" href="linkedin.com">
+          <Link
+            className="text-4xl hover:text-green-primary hover:border-green-primary"
+            href="linkedin.com">
             <FaLinkedin />
           </Link>
         </div>
