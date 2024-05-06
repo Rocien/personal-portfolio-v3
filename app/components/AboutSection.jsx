@@ -25,9 +25,9 @@ const TAB_DATA = [
     id: 'education',
     content: (
       <ul className="list-disc pl-2">
-        <li>Mobile App Design and Development, Alqonquin college</li>
-        <li>Frontend Web Development, Coursera</li>
-        <li>Networking & CCNA/CCNP</li>
+        <li>Mobile App Design and Development | Alqonquin college</li>
+        <li>Frontend Web Development | Coursera</li>
+        <li>Networking & CCNA/CCNP | Cape Peninsula University of Technology (CPUT)</li>
       </ul>
     )
   },
