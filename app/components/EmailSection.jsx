@@ -50,12 +50,14 @@ const EmailSection = () => {
         <div className="socials flex flex-row gap-2">
           <Link
             className="text-4xl hover:text-green-primary hover:border-green-primary"
-            href="https://github.com/Rocien">
+            href="https://github.com/Rocien"
+            target="_blank">
             <VscGithub />
           </Link>
           <Link
             className="text-4xl hover:text-green-primary hover:border-green-primary"
-            href="https://www.linkedin.com/in/rociennkunga/">
+            href="https://www.linkedin.com/in/rociennkunga/"
+            target="_blank">
             <FaLinkedin />
           </Link>
         </div>

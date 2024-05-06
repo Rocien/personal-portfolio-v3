@@ -17,7 +17,12 @@ const Footer = () => {
             className=""
           />
         </Link>
-        <p className="text-white-dark">All rights reserved.</p>
+        <Link
+          className=" text-white-dark hover:text-green-primary hover:border-green-primary"
+          href="https://github.com/Rocien"
+          target="_blank">
+          <small>&copy; 2024 Designed & Built by Rocien Nkunga</small>
+        </Link>
       </div>
     </footer>
   );
