@@ -37,6 +37,7 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>Meta Frontend Web Development</li>
+        <li>CISCO CCNA International</li>
       </ul>
     )
   }
