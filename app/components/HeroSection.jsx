@@ -3,12 +3,17 @@
 import React from 'react';
 import Image from 'next/legacy/image';
 import { TypeAnimation } from 'react-type-animation';
+import { motion } from 'framer-motion';
 
 export const HeroSection = () => {
   return (
     <section className="lg:py-16">
       <div className="grid grid-cols-1 sm:grid-cols-12">
-        <div className="col-span-7 place-self-center text-center sm:text-left ">
+        <motion.div
+          initial={{ opacity: 0, scale: 0.2 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 1 }}
+          className="col-span-7 place-self-center text-center sm:text-left justify-self-start">
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-green-primary">
               Hello, I&apos;m
@@ -31,8 +36,7 @@ export const HeroSection = () => {
             />
           </h1>
           <p className="text-white-dark text-base sm:text-lg mb-6 lg:text-xl">
-            With a passion for building interactive and responsive web applications that enhance
-            user experience and drive business success.{' '}
+            With a passion for building interactive and responsive web applications.{' '}
           </p>
           <div>
             <p className="uppercase">Check out my resume</p>
@@ -40,12 +44,16 @@ export const HeroSection = () => {
               <span className="block bg-light-black2 rounded-full px-5 py-2">Grab A copy</span>
             </button>
           </div>
-        </div>
-        <div className="col-span-5 place-self-center mt-4 lg:mt-0">
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0, scale: 0.2 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 1 }}
+          className="col-span-5 place-self-center mt-4 lg:mt-0">
           <div className="rounded-full border border-green-primary w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative overflow-hidden bg-light-black2 ">
             <Image layout="fill" src="/images/Hero.png" alt="Hero photo" objectFit="cover" />
           </div>
-        </div>
+        </motion.div>
       </div>
     </section>
   );

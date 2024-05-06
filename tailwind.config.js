@@ -25,6 +25,15 @@ module.exports = {
         'navy-primary': '#0a192f',
         'navy-secondary': '#233554',
         accent: '#D96666'
+      },
+      keyframes: {
+        rotate: {
+          from: { transform: 'rotate(0deg)' },
+          to: { transform: 'rotate(360deg)' }
+        }
+      },
+      animation: {
+        'spin-slow': 'rotate 20s linear infinite'
       }
     }
   },
