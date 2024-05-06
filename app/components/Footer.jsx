@@ -18,7 +18,7 @@ const Footer = () => {
           />
         </Link>
         <Link
-          className=" text-white-dark hover:text-green-primary hover:border-green-primary"
+          className=" text-white-dark hover:text-green-primary hover:border-green-primary transform transition duration-300"
           href="https://github.com/Rocien"
           target="_blank">
           <small>&copy; 2024 Designed & Built by Rocien Nkunga</small>

@@ -2,6 +2,7 @@
 import React, { useTransition, useState } from 'react';
 import Image from 'next/image';
 import TabButton from './TabButton';
+import Link from 'next/link';
 
 const TAB_DATA = [
   {
@@ -74,9 +75,18 @@ const AboutSection = () => {
             fueled by a hunger for learning; I thrive on challenges and continually seek to expand
             my knowledge and skill set. Alongside my development expertise, I possess some design
             skills honed through hands-on experience. Currently in my final year pursuing Mobile
-            Application Design and Development (MAD&D) at Algonquin College, I am poised to
-            integrate cutting-edge technologies and design principles into innovative projects.
-            Let&apos;s collaborate and bring your digital visions to life!
+            Application Design and Development{' '}
+            <span>
+              <Link
+                className="cursor-pointer underline hover:text-green-primary hover:border-green-primary transform transition duration-300"
+                href="https://www.algonquincollege.com/mediaanddesign/program/mobile-application-design-and-development/#overview"
+                target="_blank">
+                (MAD&D)
+              </Link>
+            </span>{' '}
+            at Algonquin College, I am poised to integrate cutting-edge technologies and design
+            principles into innovative projects. Let&apos;s collaborate and bring your digital
+            visions to life!
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton selectTab={() => handleTabChange('skills')} active={tab === 'skills'}>

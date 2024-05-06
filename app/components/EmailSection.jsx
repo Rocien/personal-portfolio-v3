@@ -49,13 +49,13 @@ const EmailSection = () => {
         </p>
         <div className="socials flex flex-row gap-2">
           <Link
-            className="text-4xl hover:text-green-primary hover:border-green-primary"
+            className="text-4xl hover:text-green-primary hover:border-green-primary transform transition duration-300"
             href="https://github.com/Rocien"
             target="_blank">
             <VscGithub />
           </Link>
           <Link
-            className="text-4xl hover:text-green-primary hover:border-green-primary"
+            className="text-4xl hover:text-green-primary hover:border-green-primary transform transition duration-300"
             href="https://www.linkedin.com/in/rociennkunga/"
             target="_blank">
             <FaLinkedin />
@@ -107,7 +107,7 @@ const EmailSection = () => {
             </div>
             <button
               type="submit"
-              className="bg-green-primary hover:bg-green-secondary text-black font-medium py-2.5 px-5 rounded-lg w-full">
+              className="bg-green-primary hover:bg-green-secondary transform transition duration-300 text-black font-medium py-2.5 px-5 rounded-lg w-full cursor-pointer">
               Send Message
             </button>
           </form>
