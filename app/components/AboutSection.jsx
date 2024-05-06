@@ -9,11 +9,12 @@ const TAB_DATA = [
     id: 'skills',
     content: (
       <ul className="list-disc pl-2">
+        <li>JavaScript</li>
         <li>Node.js</li>
+        <li>TypeScript</li>
         <li>Express</li>
         <li>Next JS</li>
         <li>MongoDB</li>
-        <li>JavaScript</li>
         <li>React</li>
       </ul>
     )
@@ -23,7 +24,9 @@ const TAB_DATA = [
     id: 'education',
     content: (
       <ul className="list-disc pl-2">
-        <li>MAD&D Alqonquin college</li>
+        <li>Mobile App Design & Development, Alqonquin college</li>
+        <li>Frontend Web Development, Coursera</li>
+        <li>Networking & CCNA/CCNP</li>
       </ul>
     )
   },
@@ -32,8 +35,7 @@ const TAB_DATA = [
     id: 'certifications',
     content: (
       <ul className="list-disc pl-2">
-        <li>Coursera frontend Web development</li>
-        <li></li>
+        <li>Meta Frontend Web Development</li>
       </ul>
     )
   }
@@ -64,11 +66,17 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I am a full stack web developer with a passion for creating interactive and responsive
-            web applications. I have experience working with JavaScript, React, Redux, Node.js,
-            Express, PostgreSQL, Sequelize, HTML, CSS, and Git. I am a quick learner and I am always
-            looking to expand my knowledge and skill set. I am a team player and I am excited to
-            work with others to create amazing applications.
+            Welcome to my portfolio! I'm a dedicated full-stack web developer driven by a passion
+            for crafting dynamic and engaging web experiences. Proficient in a variety of
+            technologies including JavaScript, TypeScript, React, Next.js, Node.js, Express,
+            MongoDB, HTML, CSS, Tailwind, Figma, A.Illustrator and Git, I specialize in building
+            interactive and responsive web applications. My journey in the world of technology is
+            fueled by a hunger for learning; I thrive on challenges and continually seek to expand
+            my knowledge and skill set. Alongside my development expertise, I possess some design
+            skills honed through hands-on experience. Currently in my final year pursuing Mobile
+            Application Design and Development (MAD&D) at Algonquin College, I am poised to
+            integrate cutting-edge technologies and design principles into innovative projects.
+            Let's collaborate and bring your digital visions to life!
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton selectTab={() => handleTabChange('skills')} active={tab === 'skills'}>
