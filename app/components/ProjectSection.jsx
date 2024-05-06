@@ -26,16 +26,6 @@ const projectsData = [
     previewUrl: 'https://scrapskip.vercel.app/'
   },
   {
-    id: 3,
-    title: 'ClimaSphere Web application',
-    description:
-      'ClimaSphere is a sleek weather application built with React.js and styled using Tailwind CSS along with CSS modules. It enables users to easily search for and view the current weather conditions of any location. Leveraging the OpenWeather API, ClimaSphere provides accurate and up-to-date weather information, making it a go-to resource for all your weather needs',
-    image: '/images/projects/p2.jpg',
-    tag: ['All', 'WebApp'],
-    gitUrl: 'https://github.com/Rocien/ClimaSphere-weather-app',
-    previewUrl: 'https://climasphere.vercel.app/'
-  },
-  {
     id: 4,
     title: 'Bloom&Glow E-commerce App',
     description:
@@ -45,6 +35,17 @@ const projectsData = [
     gitUrl: 'https://github.com/Rocien/bloom-and-glow',
     previewUrl: 'https://rocien.github.io/bloom-and-glow/'
   },
+  {
+    id: 3,
+    title: 'ClimaSphere Web application',
+    description:
+      'ClimaSphere is a sleek weather application built with React.js and styled using Tailwind CSS along with CSS modules. It enables users to easily search for and view the current weather conditions of any location. Leveraging the OpenWeather API, ClimaSphere provides accurate and up-to-date weather information, making it a go-to resource for all your weather needs',
+    image: '/images/projects/p2.jpg',
+    tag: ['All', 'WebApp'],
+    gitUrl: 'https://github.com/Rocien/ClimaSphere-weather-app',
+    previewUrl: 'https://climasphere.vercel.app/'
+  },
+
   {
     id: 5,
     title: 'Vanilla JS Portfolio Website',
