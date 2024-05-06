@@ -66,8 +66,8 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            Welcome to my portfolio! I'm a dedicated full-stack web developer driven by a passion
-            for crafting dynamic and engaging web experiences. Proficient in a variety of
+            Welcome to my portfolio! I&apos;m a dedicated full-stack web developer driven by a
+            passion for crafting dynamic and engaging web experiences. Proficient in a variety of
             technologies including JavaScript, TypeScript, React, Next.js, Node.js, Express,
             MongoDB, HTML, CSS, Tailwind, Figma, A.Illustrator and Git, I specialize in building
             interactive and responsive web applications. My journey in the world of technology is
@@ -76,7 +76,7 @@ const AboutSection = () => {
             skills honed through hands-on experience. Currently in my final year pursuing Mobile
             Application Design and Development (MAD&D) at Algonquin College, I am poised to
             integrate cutting-edge technologies and design principles into innovative projects.
-            Let's collaborate and bring your digital visions to life!
+            Let&apos;s collaborate and bring your digital visions to life!
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton selectTab={() => handleTabChange('skills')} active={tab === 'skills'}>
