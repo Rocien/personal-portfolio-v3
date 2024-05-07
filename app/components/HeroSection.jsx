@@ -4,8 +4,28 @@ import React from 'react';
 import Image from 'next/legacy/image';
 import { TypeAnimation } from 'react-type-animation';
 import { motion } from 'framer-motion';
+import Link from 'next/link';
 
 export const HeroSection = () => {
+  // This function to download and open resume
+  const downloadAndOpenResume = () => {
+    // Path to the resume PDF file
+    const resumeUrl = '/files/RocienNkunga__Resume.pdf';
+
+    // Open the resume in a new tab with `_blank`
+    window.open(resumeUrl, '_blank', 'noopener,noreferrer');
+
+    // Create a download anchor element
+    const link = document.createElement('a');
+    link.href = resumeUrl;
+    link.setAttribute('download', 'RocienNkunga__Resume.pdf');
+
+    // Append to the body and click to trigger download
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <section className="lg:py-16">
       <div className="grid grid-cols-1 sm:grid-cols-12">
@@ -40,7 +60,9 @@ export const HeroSection = () => {
           </p>
           <div>
             <p className="uppercase">Check out my resume</p>
-            <button className="px-1 py-1 rounded-full bg-gradient-to-br from-blue-500 to-green-primary hover:text-green-primary hover:shadow-md hover:shadow-green-primary/90 transform transition duration-300 hover:-translate-x-1 hover:-translate-y-1 m-3">
+            <button
+              onClick={downloadAndOpenResume}
+              className=" cursor-pointer px-1 py-1 rounded-full bg-gradient-to-br from-blue-500 to-green-primary hover:text-green-primary hover:shadow-md hover:shadow-green-primary/90 transform transition duration-300 hover:-translate-x-1 hover:-translate-y-1 m-3">
               <span className="block bg-light-black2 rounded-full px-5 py-2">Grab A copy</span>
             </button>
           </div>
