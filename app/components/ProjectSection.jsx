@@ -11,7 +11,7 @@ const projectsData = [
     description:
       'My portfolio website, built using Next.js and Tailailwind CSS, is designed to showcase my skills and projects in a modern and responsive interface. This site leverages the robust features of Next.js for enhanced performance and SEO, paired with the utility-first styling of Tailwind CSS for a sleek, custom look. It serves as a dynamic platform to display my professional work and technical abilities, highlighting my expertise in contemporary a fullstack web development',
     image: '/images/projects/p6.jpg',
-    tag: ['All', 'WebSite', 'Nextjs'],
+    tag: ['All', 'WebSite', 'NextJS'],
     gitUrl: 'https://github.com/Rocien/personal-portfolio-v3',
     previewUrl: 'https://www.rociennkunga.com/'
   },
@@ -41,7 +41,7 @@ const projectsData = [
     description:
       'ClimaSphere is a sleek weather application built with React.js and styled using Tailwind CSS along with CSS modules. It enables users to easily search for and view the current weather conditions of any location. Leveraging the OpenWeather API, ClimaSphere provides accurate and up-to-date weather information, making it a go-to resource for all your weather needs',
     image: '/images/projects/p2.jpg',
-    tag: ['All', 'Web App', 'Reactjs'],
+    tag: ['All', 'Web App', 'ReactJS'],
     gitUrl: 'https://github.com/Rocien/ClimaSphere-weather-app',
     previewUrl: 'https://climasphere.vercel.app/'
   },
@@ -93,8 +93,8 @@ const ProjectsSection = () => {
         <ProjectTag onClick={handleTagChange} name="All" isSelected={tag === 'All'} />
         <ProjectTag onClick={handleTagChange} name="WebSite" isSelected={tag === 'WebSite'} />
         <ProjectTag onClick={handleTagChange} name="Web App" isSelected={tag === 'Web App'} />
-        <ProjectTag onClick={handleTagChange} name="Nextjs" isSelected={tag === 'Nextjs'} />
-        <ProjectTag onClick={handleTagChange} name="Reactjs" isSelected={tag === 'Reactjs'} />
+        <ProjectTag onClick={handleTagChange} name="NextJS" isSelected={tag === 'NextJS'} />
+        <ProjectTag onClick={handleTagChange} name="ReactJS" isSelected={tag === 'ReactJS'} />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
         {filteredProjects.map((project, index) => (
