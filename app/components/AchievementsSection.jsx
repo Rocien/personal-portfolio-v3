@@ -18,7 +18,7 @@ const achievementsList = [
     link: 'https://github.com/Rocien?tab=repositories'
   },
   {
-    metric: 'Years Experience',
+    metric: 'Years experience as developer',
     value: '3'
   }
 ];
