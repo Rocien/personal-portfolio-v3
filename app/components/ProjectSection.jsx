@@ -21,7 +21,7 @@ const projectsData = [
     description:
       'Authentication and CRUD operations, ScrapSkip is a Next.js-based marketplace web app designed to buy and sell unwanted household items. It leverages Tailwind CSS for styling, Express.js for server-side logic, and MongoDB for data management. The app features secure user authentication via Google OAuth, ensuring a seamless and safe user experience.',
     image: '/images/projects/p1.jpg',
-    tag: ['All', 'Web App'],
+    tag: ['All', 'Web App', 'NextJS'],
     gitUrl: 'https://github.com/Rocien/scrapskip-app',
     previewUrl: 'https://scrapskip.vercel.app/'
   },
@@ -31,7 +31,7 @@ const projectsData = [
     description:
       "This is a stylish frontend-only e-commerce website for Broom&Glow Shop, currently under construction as part of a freelance project. Built using React.js and Tailwind CSS, the site offers a modern, responsive design that showcases Broom&Glow's products with an emphasis on visual appeal and user experience. This project highlights a sleek interface designed to enhance customer interaction and sales, even as development continues to refine and expand its features.",
     image: '/images/projects/p3.jpg',
-    tag: ['All', 'Web App'],
+    tag: ['All', 'Web App', 'ReactJS'],
     gitUrl: 'https://github.com/Rocien/bloom-and-glow',
     previewUrl: 'https://rocien.github.io/bloom-and-glow/'
   },
@@ -52,7 +52,7 @@ const projectsData = [
     description:
       'Portfolio Website V1 is the initial version of my personal portfolio, crafted with Vanilla JavaScript, HTML, and CSS. This site served as a straightforward platform to display my projects and skills, emphasizing fundamental web development practices. Its design was focused on simplicity and functionality, providing a clear and effective showcase of my capabilities in the core technologies of web development.',
     image: '/images/projects/p4.jpg',
-    tag: ['All', 'WebSite'],
+    tag: ['All', 'WebSite', 'Javascript'],
     gitUrl: 'https://github.com/Rocien/portfolio-site',
     previewUrl: 'https://v2-rociennkunga.vercel.app/'
   },
@@ -62,7 +62,7 @@ const projectsData = [
     description:
       "Adventure Co! is a concise two-page website blog designed to showcase my web page design and flow capabilities. Crafted with HTML, CSS, and JavaScript, this site features a responsive design that ensures a seamless viewing experience on any device. It's tailored to demonstrate the effectiveness of my layout skills and the engaging user interfaces I can create, all through a visually appealing adventure-themed content presentation.",
     image: '/images/projects/p5.jpg',
-    tag: ['All', 'WebSite'],
+    tag: ['All', 'WebSite', 'Javascript'],
     gitUrl: 'https://github.com/Rocien/adventure-co-blog',
     previewUrl: 'https://adventure-co-blog.vercel.app/'
   }
@@ -95,6 +95,7 @@ const ProjectsSection = () => {
         <ProjectTag onClick={handleTagChange} name="Web App" isSelected={tag === 'Web App'} />
         <ProjectTag onClick={handleTagChange} name="NextJS" isSelected={tag === 'NextJS'} />
         <ProjectTag onClick={handleTagChange} name="ReactJS" isSelected={tag === 'ReactJS'} />
+        <ProjectTag onClick={handleTagChange} name="Javascript" isSelected={tag === 'Javascript'} />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
         {filteredProjects.map((project, index) => (
