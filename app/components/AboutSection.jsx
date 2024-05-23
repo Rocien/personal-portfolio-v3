@@ -17,6 +17,8 @@ const TAB_DATA = [
         <li>Next JS</li>
         <li>MongoDB</li>
         <li>React</li>
+        <li>Figma</li>
+        <li>A.Illustrator</li>
       </ul>
     )
   },
@@ -70,13 +72,10 @@ const AboutSection = () => {
           <p className="text-base lg:text-lg">
             Welcome to my portfolio! I&apos;m a dedicated full-stack web developer driven by a
             passion for crafting dynamic and engaging web experiences. Proficient in a variety of
-            technologies including JavaScript, TypeScript, React, Next.js, Node.js, Express,
-            MongoDB, HTML, CSS, Tailwind, Figma, A.Illustrator and Git, I specialize in building
-            interactive and responsive web applications. My journey in the world of technology is
-            fueled by a hunger for learning; I thrive on challenges and continually seek to expand
-            my knowledge and skill set. Alongside my development expertise, I possess some design
-            skills honed through hands-on experience. Currently in my final year pursuing Mobile
-            Application Design and Development{' '}
+            technologies as listed on my skills tab, I specialize in building interactive and
+            responsive web applications. Alongside my development expertise, I possess design skills
+            honed through hands-on experience with Figma and Illustrator. Currently, I'm in my final
+            year pursuing Mobile Application Design and Development.
             <span>
               <Link
                 className="cursor-pointer underline hover:text-green-primary hover:border-green-primary transform transition duration-300"
@@ -85,9 +84,7 @@ const AboutSection = () => {
                 (MAD&D)
               </Link>
             </span>{' '}
-            at Algonquin College, I am poised to integrate cutting-edge technologies and design
-            principles into innovative projects. Let&apos;s collaborate and bring your digital
-            visions to life!
+            at Algonquin College.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton selectTab={() => handleTabChange('skills')} active={tab === 'skills'}>

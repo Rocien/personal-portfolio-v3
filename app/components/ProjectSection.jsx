@@ -11,7 +11,7 @@ const projectsData = [
     description:
       'My portfolio website, built using Next.js and Tailailwind CSS, is designed to showcase my skills and projects in a modern and responsive interface. This site leverages the robust features of Next.js for enhanced performance and SEO, paired with the utility-first styling of Tailwind CSS for a sleek, custom look. It serves as a dynamic platform to display my professional work and technical abilities, highlighting my expertise in contemporary a fullstack web development',
     image: '/images/projects/p6.jpg',
-    tag: ['All', 'WebSite'],
+    tag: ['All', 'WebSite', 'Nextjs'],
     gitUrl: 'https://github.com/Rocien/personal-portfolio-v3',
     previewUrl: 'https://www.rociennkunga.com/'
   },
@@ -21,7 +21,7 @@ const projectsData = [
     description:
       'Authentication and CRUD operations, ScrapSkip is a Next.js-based marketplace web app designed to buy and sell unwanted household items. It leverages Tailwind CSS for styling, Express.js for server-side logic, and MongoDB for data management. The app features secure user authentication via Google OAuth, ensuring a seamless and safe user experience.',
     image: '/images/projects/p1.jpg',
-    tag: ['All', 'WebApp'],
+    tag: ['All', 'Web App'],
     gitUrl: 'https://github.com/Rocien/scrapskip-app',
     previewUrl: 'https://scrapskip.vercel.app/'
   },
@@ -31,7 +31,7 @@ const projectsData = [
     description:
       "This is a stylish frontend-only e-commerce website for Broom&Glow Shop, currently under construction as part of a freelance project. Built using React.js and Tailwind CSS, the site offers a modern, responsive design that showcases Broom&Glow's products with an emphasis on visual appeal and user experience. This project highlights a sleek interface designed to enhance customer interaction and sales, even as development continues to refine and expand its features.",
     image: '/images/projects/p3.jpg',
-    tag: ['All', 'WebApp'],
+    tag: ['All', 'Web App'],
     gitUrl: 'https://github.com/Rocien/bloom-and-glow',
     previewUrl: 'https://rocien.github.io/bloom-and-glow/'
   },
@@ -41,7 +41,7 @@ const projectsData = [
     description:
       'ClimaSphere is a sleek weather application built with React.js and styled using Tailwind CSS along with CSS modules. It enables users to easily search for and view the current weather conditions of any location. Leveraging the OpenWeather API, ClimaSphere provides accurate and up-to-date weather information, making it a go-to resource for all your weather needs',
     image: '/images/projects/p2.jpg',
-    tag: ['All', 'WebApp'],
+    tag: ['All', 'Web App', 'Reactjs'],
     gitUrl: 'https://github.com/Rocien/ClimaSphere-weather-app',
     previewUrl: 'https://climasphere.vercel.app/'
   },
@@ -92,7 +92,9 @@ const ProjectsSection = () => {
       <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
         <ProjectTag onClick={handleTagChange} name="All" isSelected={tag === 'All'} />
         <ProjectTag onClick={handleTagChange} name="WebSite" isSelected={tag === 'WebSite'} />
-        <ProjectTag onClick={handleTagChange} name="WebApp" isSelected={tag === 'WebApp'} />
+        <ProjectTag onClick={handleTagChange} name="Web App" isSelected={tag === 'Web App'} />
+        <ProjectTag onClick={handleTagChange} name="Nextjs" isSelected={tag === 'Nextjs'} />
+        <ProjectTag onClick={handleTagChange} name="Reactjs" isSelected={tag === 'Reactjs'} />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
         {filteredProjects.map((project, index) => (
