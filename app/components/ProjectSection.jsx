@@ -11,7 +11,7 @@ const projectsData = [
     description:
       'My portfolio website, built using Next.js and Tailailwind CSS, is designed to showcase my skills and projects in a modern and responsive interface. This site leverages the robust features of Next.js for enhanced performance and SEO, paired with the utility-first styling of Tailwind CSS for a sleek, custom look. It serves as a dynamic platform to display my professional work and technical abilities, highlighting my expertise in contemporary a fullstack web development',
     image: '/images/projects/p6.jpg',
-    tag: ['All', 'WebSite', 'NextJS'],
+    tag: ['All', 'WebSite', 'NextJS', 'Tailwind'],
     gitUrl: 'https://github.com/Rocien/personal-portfolio-v3',
     previewUrl: 'https://www.rociennkunga.com/'
   },
@@ -21,7 +21,7 @@ const projectsData = [
     description:
       'Authentication and CRUD operations, ScrapSkip is a Next.js-based marketplace web app designed to buy and sell unwanted household items. It leverages Tailwind CSS for styling, Express.js for server-side logic, and MongoDB for data management. The app features secure user authentication via Google OAuth, ensuring a seamless and safe user experience.',
     image: '/images/projects/p1.jpg',
-    tag: ['All', 'Web App', 'NextJS'],
+    tag: ['All', 'Web App', 'NextJS', 'Tailwind'],
     gitUrl: 'https://github.com/Rocien/scrapskip-app',
     previewUrl: 'https://scrapskip.vercel.app/'
   },
@@ -31,7 +31,7 @@ const projectsData = [
     description:
       "This is a stylish frontend-only e-commerce website for Broom&Glow Shop, currently under construction as part of a freelance project. Built using React.js and Tailwind CSS, the site offers a modern, responsive design that showcases Broom&Glow's products with an emphasis on visual appeal and user experience. This project highlights a sleek interface designed to enhance customer interaction and sales, even as development continues to refine and expand its features.",
     image: '/images/projects/p3.jpg',
-    tag: ['All', 'Web App', 'ReactJS'],
+    tag: ['All', 'Web App', 'ReactJS', 'Tailwind'],
     gitUrl: 'https://github.com/Rocien/bloom-and-glow',
     previewUrl: 'https://rocien.github.io/bloom-and-glow/'
   },
@@ -96,6 +96,7 @@ const ProjectsSection = () => {
         <ProjectTag onClick={handleTagChange} name="NextJS" isSelected={tag === 'NextJS'} />
         <ProjectTag onClick={handleTagChange} name="ReactJS" isSelected={tag === 'ReactJS'} />
         <ProjectTag onClick={handleTagChange} name="Javascript" isSelected={tag === 'Javascript'} />
+        <ProjectTag onClick={handleTagChange} name="Tailwind" isSelected={tag === 'Tailwind'} />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
         {filteredProjects.map((project, index) => (

@@ -17,6 +17,7 @@ const TAB_DATA = [
         <li>Next JS</li>
         <li>MongoDB</li>
         <li>React</li>
+        <li>Tailwind</li>
         <li>Figma</li>
         <li>A.Illustrator</li>
       </ul>
