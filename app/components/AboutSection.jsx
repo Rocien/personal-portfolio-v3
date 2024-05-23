@@ -70,12 +70,11 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            Welcome to my portfolio! I&apos;m a dedicated full-stack web developer driven by a
-            passion for crafting dynamic and engaging web experiences. Proficient in a variety of
-            technologies as listed on my skills tab, I specialize in building interactive and
-            responsive web applications. Alongside my development expertise, I possess design skills
-            honed through hands-on experience with Figma and Illustrator. Currently, I&apos;m in my
-            final year pursuing Mobile Application Design and Development
+            Welcome to my portfolio! I&apos;m a dedicated full-stack web developer. Proficient in a
+            variety of technologies as listed on my skills tab, I specialize in building interactive
+            and responsive web applications. Alongside my development expertise, I possess design
+            skills honed through hands-on experience with Figma and Illustrator. Currently, I&apos;m
+            in my final year pursuing Mobile Application Design and Development
             <span>
               <Link
                 className="cursor-pointer underline hover:text-green-primary hover:border-green-primary transform transition duration-300"
