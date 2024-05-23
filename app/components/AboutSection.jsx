@@ -74,8 +74,8 @@ const AboutSection = () => {
             passion for crafting dynamic and engaging web experiences. Proficient in a variety of
             technologies as listed on my skills tab, I specialize in building interactive and
             responsive web applications. Alongside my development expertise, I possess design skills
-            honed through hands-on experience with Figma and Illustrator. Currently, I'm in my final
-            year pursuing Mobile Application Design and Development.
+            honed through hands-on experience with Figma and Illustrator. Currently, I&apos;m in my
+            final year pursuing Mobile Application Design and Development
             <span>
               <Link
                 className="cursor-pointer underline hover:text-green-primary hover:border-green-primary transform transition duration-300"
