@@ -10,7 +10,7 @@ export const HeroSection = () => {
   // This function to download and open resume
   const downloadAndOpenResume = () => {
     // Path to the resume PDF file
-    const resumeUrl = '/files/RocienNkunga__Resume.pdf';
+    const resumeUrl = '/files/RocienNkunga_resume.pdf';
 
     // Open the resume in a new tab with `_blank`
     window.open(resumeUrl, '_blank', 'noopener,noreferrer');
@@ -43,9 +43,9 @@ export const HeroSection = () => {
               sequence={[
                 'Rocien Nkunga',
                 1500, // wait 1.5s before replacing to the second phrase
-                'Full Stack Web.',
+                'Mobile App.',
                 1500,
-                'Mobile',
+                'Full Stack Web.',
                 1000,
                 'Developer',
                 1500
