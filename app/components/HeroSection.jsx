@@ -43,7 +43,7 @@ export const HeroSection = () => {
               sequence={[
                 'Rocien Nkunga',
                 1500, // wait 1.5s before replacing to the second phrase
-                'Mobile App.',
+                'A Mobile App.',
                 1500,
                 'Full Stack Web.',
                 1000,
@@ -56,7 +56,9 @@ export const HeroSection = () => {
             />
           </h1>
           <p className="text-white-dark text-base sm:text-lg mb-6 lg:text-xl">
-            With a passion for building interactive and responsive web applications.{' '}
+            I build modern mobile and web apps with clean code and real-world impact. From iOS/cross
+            platforms to full-stack development, I lead with precision, adapt fast, and confidently
+            tackle any technology because great code follows great patterns.{' '}
           </p>
           <div>
             <p className="uppercase">Check out my resume</p>
