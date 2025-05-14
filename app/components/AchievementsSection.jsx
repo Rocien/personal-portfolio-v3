@@ -12,13 +12,13 @@ const AnimatedNumbers = dynamic(
 
 const achievementsList = [
   {
-    metric: 'Projects',
+    metric: '💻 Mobile & Web Apps Developed',
     value: '20',
     postfix: '+',
     link: 'https://github.com/Rocien?tab=repositories'
   },
   {
-    metric: 'Years experience as developer',
+    metric: '🛠️ Years of Hands-on Development.',
     value: '3'
   }
 ];
