@@ -44,8 +44,9 @@ const EmailSection = () => {
       <div className="z-10">
         <h5 className="text-xl font-bold text-white my-2">Let&apos;s Connect</h5>
         <p className="text-white-dark mb-4 max-w-md">
-          I am actively seeking new opportunities and welcome inquiries. Please feel free to reach
-          out with any questions or to say hello, and I will respond promptly.
+          I am currently seeking full-time opportunities in mobile and full-stack web development.
+          If you are hiring or looking to collaborate on impactful projects, feel free to connect
+          with me. I am open to new challenges and ready to bring value to a forward thinking team.
         </p>
         <div className="socials flex flex-row gap-2">
           <Link
@@ -78,7 +79,7 @@ const EmailSection = () => {
                 id="email"
                 required
                 className="bg-light-black2 border border-dark-light placeholder-white-dark text-gray-100 text-sm rounded-lg block w-full p-2.5"
-                placeholder="William@gmail.com"
+                placeholder="rocien@gmail.com"
               />
             </div>
             <div className="mb-6">
@@ -91,7 +92,7 @@ const EmailSection = () => {
                 id="subject"
                 required
                 className="bg-light-black2 border border-dark-light placeholder-white-dark text-gray-100 text-sm rounded-lg block w-full p-2.5"
-                placeholder="Just saying Hello,"
+                placeholder="Type your subject here,"
               />
             </div>
             <div className="mb-6">
