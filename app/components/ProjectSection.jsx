@@ -9,7 +9,7 @@ const projectsData = [
     id: 1,
     title: 'Personal Portfolio Website',
     description:
-      'My portfolio website, built using Next.js and Tailailwind CSS, is designed to showcase my skills and projects in a modern and responsive interface. This site leverages the robust features of Next.js for enhanced performance and SEO, paired with the utility-first styling of Tailwind CSS for a sleek, custom look. It serves as a dynamic platform to display my professional work and technical abilities, highlighting my expertise in contemporary a fullstack web development',
+      'My portfolio website, built using Next.js and Tailailwind CSS, is designed to showcase my skills and projects in a modern and responsive interface. This site leverages the robust features of Next.js for enhanced performance and SEO, paired with the utility-first styling of Tailwind CSS for a sleek, custom look. It serves as a dynamic platform to display my professional work and technical abilities, highlighting my expertise in contemporary a fullstack development',
     image: '/images/projects/p6.jpg',
     tag: ['All', 'Web'],
     gitUrl: 'https://github.com/Rocien/personal-portfolio-v3',
