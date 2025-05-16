@@ -11,60 +11,60 @@ const projectsData = [
     description:
       'My portfolio website, built using Next.js and Tailailwind CSS, is designed to showcase my skills and projects in a modern and responsive interface. This site leverages the robust features of Next.js for enhanced performance and SEO, paired with the utility-first styling of Tailwind CSS for a sleek, custom look. It serves as a dynamic platform to display my professional work and technical abilities, highlighting my expertise in contemporary a fullstack web development',
     image: '/images/projects/p6.jpg',
-    tag: ['All', 'WebSite', 'NextJS', 'Tailwind'],
+    tag: ['All', 'Web'],
     gitUrl: 'https://github.com/Rocien/personal-portfolio-v3',
     previewUrl: 'https://www.rociennkunga.com/'
   },
   {
     id: 2,
+    title: 'Algonquin Times App ',
+    description:
+      'The Algonquin Times App is an all-in-one student media platform built for Algonquin College. Designed to deliver campus news, transit updates, weather info, daily horoscopes, games, and more, the app provides a rich, engaging experience tailored for students. As the Development Lead, I coordinated the team, architected key features, implemented API integrations, and managed the full codebase using GitHub. The app pulls real-time content from the Algonquin Times WordPress site and supports features like offline storage, dark mode, dynamic search, bookmarking, notifications, and interactive widgets. This project was delivered to the client and is not publicly available on GitHub. However, a working demo is available below',
+    image: '/images/projects/p7.jpg',
+    tag: ['All', 'Mobile App'],
+    gitUrl: '',
+    previewUrl: 'https://drive.google.com/drive/folders/1_cAN0gBYwOq2M7pstCibrcI1uhe64RD2'
+  },
+  {
+    id: 3,
     title: 'ScrapSkip Web app',
     description:
       'Authentication and CRUD operations, ScrapSkip is a Next.js-based marketplace web app designed to buy and sell unwanted household items. It leverages Tailwind CSS for styling, Express.js for server-side logic, and MongoDB for data management. The app features secure user authentication via Google OAuth, ensuring a seamless and safe user experience.',
     image: '/images/projects/p1.jpg',
-    tag: ['All', 'Web App', 'NextJS', 'Tailwind'],
+    tag: ['All', 'Web'],
     gitUrl: 'https://github.com/Rocien/scrapskip-app',
     previewUrl: 'https://scrapskip.vercel.app/'
   },
   {
     id: 4,
-    title: 'Bloom&Glow E-commerce App',
+    title: 'WeatherWise',
     description:
-      "This is a stylish frontend-only e-commerce website for Broom&Glow Shop, currently under construction as part of a freelance project. Built using React.js and Tailwind CSS, the site offers a modern, responsive design that showcases Broom&Glow's products with an emphasis on visual appeal and user experience. This project highlights a sleek interface designed to enhance customer interaction and sales, even as development continues to refine and expand its features.",
-    image: '/images/projects/p3.jpg',
-    tag: ['All', 'Web App', 'ReactJS', 'Tailwind'],
-    gitUrl: 'https://github.com/Rocien/bloom-and-glow',
-    previewUrl: 'https://rocien.github.io/bloom-and-glow/'
+      'WeatherWise is a sleek, native iOS weather app designed to deliver real-time weather data with a focus on simplicity and clean UI. Built using Swift and SwiftUI, the app fetches current weather conditions, location-based forecasts, wind speed, humidity, and hourly updates using the OpenWeatherMap API. The app supports features like dynamic location search, responsive UI updates, and modular components for future scalability. It reflects my focus on native performance, clean architecture, and user-centered design on Apple platforms',
+    image: '/images/projects/p8.jpg',
+    tag: ['All', 'Mobile App'],
+    gitUrl: 'https://github.com/Rocien/WeatherWise',
+    previewUrl: 'https://drive.google.com/drive/folders/1EDLsFujE7tsgdHHL3wE_2Bw3hco43OE0'
   },
   {
-    id: 3,
+    id: 5,
     title: 'ClimaSphere Web application',
     description:
       'ClimaSphere is a sleek weather application built with React.js and styled using Tailwind CSS along with CSS modules. It enables users to easily search for and view the current weather conditions of any location. Leveraging the OpenWeather API, ClimaSphere provides accurate and up-to-date weather information, making it a go-to resource for all your weather needs',
     image: '/images/projects/p2.jpg',
-    tag: ['All', 'Web App', 'ReactJS'],
+    tag: ['All', 'Web'],
     gitUrl: 'https://github.com/Rocien/ClimaSphere-weather-app',
     previewUrl: 'https://climasphere.vercel.app/'
   },
 
   {
-    id: 5,
+    id: 6,
     title: 'Vanilla JS Portfolio Website',
     description:
       'Portfolio Website V1 is the initial version of my personal portfolio, crafted with Vanilla JavaScript, HTML, and CSS. This site served as a straightforward platform to display my projects and skills, emphasizing fundamental web development practices. Its design was focused on simplicity and functionality, providing a clear and effective showcase of my capabilities in the core technologies of web development.',
     image: '/images/projects/p4.jpg',
-    tag: ['All', 'WebSite', 'Javascript'],
+    tag: ['All', 'Web'],
     gitUrl: 'https://github.com/Rocien/portfolio-site',
     previewUrl: 'https://v2-rociennkunga.vercel.app/'
-  },
-  {
-    id: 6,
-    title: 'Adventure CO - Blog',
-    description:
-      "Adventure Co! is a concise two-page website blog designed to showcase my web page design and flow capabilities. Crafted with HTML, CSS, and JavaScript, this site features a responsive design that ensures a seamless viewing experience on any device. It's tailored to demonstrate the effectiveness of my layout skills and the engaging user interfaces I can create, all through a visually appealing adventure-themed content presentation.",
-    image: '/images/projects/p5.jpg',
-    tag: ['All', 'WebSite', 'Javascript'],
-    gitUrl: 'https://github.com/Rocien/adventure-co-blog',
-    previewUrl: 'https://adventure-co-blog.vercel.app/'
   }
 ];
 
@@ -91,12 +91,8 @@ const ProjectsSection = () => {
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">My Projects</h2>
       <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
         <ProjectTag onClick={handleTagChange} name="All" isSelected={tag === 'All'} />
-        <ProjectTag onClick={handleTagChange} name="WebSite" isSelected={tag === 'WebSite'} />
-        <ProjectTag onClick={handleTagChange} name="Web App" isSelected={tag === 'Web App'} />
-        <ProjectTag onClick={handleTagChange} name="NextJS" isSelected={tag === 'NextJS'} />
-        <ProjectTag onClick={handleTagChange} name="ReactJS" isSelected={tag === 'ReactJS'} />
-        <ProjectTag onClick={handleTagChange} name="Javascript" isSelected={tag === 'Javascript'} />
-        <ProjectTag onClick={handleTagChange} name="Tailwind" isSelected={tag === 'Tailwind'} />
+        <ProjectTag onClick={handleTagChange} name="Web" isSelected={tag === 'Web'} />
+        <ProjectTag onClick={handleTagChange} name="Mobile App" isSelected={tag === 'Mobile App'} />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
         {filteredProjects.map((project, index) => (
