@@ -46,6 +46,7 @@ const TAB_DATA = [
             <li>Node.js</li>
             <li>Express</li>
             <li>MongoDB</li>
+            <li>Python/Django</li>
           </ul>
         </div>
 
