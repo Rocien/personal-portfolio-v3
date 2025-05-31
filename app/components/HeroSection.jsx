@@ -56,9 +56,10 @@ export const HeroSection = () => {
             />
           </h1>
           <p className="text-white-dark text-base sm:text-lg mb-6 lg:text-xl">
-            I build modern mobile and web apps with clean code and real-world impact. From iOS/cross
-            platforms to full-stack development, I lead with precision, adapt fast, and confidently
-            tackle any technology because great code follows great patterns.{' '}
+            Welcome to my portfolio. I love technology and building things with code. I believe that
+            with the right opportunity, I can learn, master, and do anything others have done. I am
+            driven by curiosity, persistence, and a passion for creating digital experiences that
+            make a difference..{' '}
           </p>
           <div>
             <p className="uppercase">Check out my resume</p>
